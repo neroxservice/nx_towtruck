@@ -1,0 +1,13 @@
+{
+    "ticket_bought": "You bought a ticket: %s (%d hours)",
+    "not_enough_money": "You don't have enough money in your bank account!",
+    "invalid_args": "Invalid command arguments!",
+    "not_towtrucker": "You are not a Towtrucker!",
+    "waypoint_title": "Towtrucker",
+    "waypoint_set": "Waypoint set to vehicle.",
+    "new_job_title": "New unpaid parking ticket",
+    "new_job_desc": "Plate: %s has an unpaid ticket!",
+    "buyticket_usage_withspace": "Usage: /buyparkingticket [PLATE with space] [hours]",
+    "buyticket_usage_nospace": "Usage: /buyparkingticket [PLATE] [hours]",
+    "not_near_vehicle": "You are not near the vehicle with this plate or the vehicle does not exist!"
+}

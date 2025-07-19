@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: transparent !important;
+    font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+    user-select: none;
+}
+
+.dispatch-ui {
+    position: fixed;
+    top: 50%;
+    right: 2%;
+    transform: translateY(-50%);
+    width: 260px;
+    background: rgba(34, 40, 49, 0.75);
+    border-radius: 18px;
+    padding: 20px 16px;
+    color: #fff;
+    display: none;
+    z-index: 1000;
+    pointer-events: auto;
+    border: 1px solid rgba(76,175,80, 0.25);
+    backdrop-filter: blur(12px);
+    transition: all 0.2s ease-in-out;
+}
+
+.dispatch-header {
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-bottom: 16px;
+    text-align: center;
+    color: #a5d6a7;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+    letter-spacing: 1px;
+}
+
+.ticket-list {
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.ticket-info {
+    font-size: 0.95em;
+    background: rgba(60, 60, 80, 0.75);
+    border-radius: 12px;
+    padding: 14px 10px;
+    margin-bottom: 12px;
+    border: 1px solid rgba(76, 175, 80, 0.5);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    line-height: 1.5;
+}
+
+.dispatch-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    padding: 0 6px;
+}
+
+.arrow {
+    font-size: 1.8em;
+    cursor: pointer;
+    user-select: none;
+    padding: 6px 14px;
+    border-radius: 10px;
+    color: #ffffff;
+    background: rgba(76,175,80,0.15);
+    border: 1px solid #4caf50;
+    transition: all 0.2s ease;
+}
+
+.arrow:hover {
+    background: rgba(76,175,80,0.4);
+    color: #c8e6c9;
+    transform: scale(1.1);
+}
+
+.waypoint {
+    font-size: 0.95em;
+    font-weight: 600;
+    padding: 10px 18px;
+    border-radius: 12px;
+    background: linear-gradient(to right, #66bb6a, #43a047);
+    color: white;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.4);
+    transition: background 0.2s, transform 0.15s;
+}
+
+.waypoint:hover {
+    background: linear-gradient(to right, #43a047, #388e3c);
+    transform: scale(1.03);
+}
